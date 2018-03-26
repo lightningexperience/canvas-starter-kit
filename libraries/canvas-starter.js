@@ -287,7 +287,7 @@ var cnv = (function(storage) {
 			url = "https://login.salesforce.com/services/oauth2/authorize";
 		}
 		else {
-			url = "https://test.salesforce.com/services/oauth2/authorize";
+			url = "https://bank99.lightning.force.com/services/oauth2/authorize";
 		}
 		//begin login/authorize process
 		Sfdc.canvas.oauth.login(
